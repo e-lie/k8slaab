@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:e-lie/kubespray.git
+	branch = master
+	commit = 135c9b29a7926484375e8633255681d2bc63644c
+	parent = 82306fc3f06ae4821b05a0ab19ff44bf0e62bb05
+	method = merge
+	cmdver = 0.4.3
