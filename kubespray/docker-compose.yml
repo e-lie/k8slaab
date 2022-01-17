@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  kubespray:
+    image: quay.io/kubespray/kubespray:v2.18.0
+    volumes:
+      - ./inventory/k8slaab:/kubespray/inventory/k8slaab
+      - ./ansible.cfg:/kubespray/ansible.cfg
+      - /home/elie/.ssh/id_stagiaire:/root/.ssh/id_stagiaire
+    command: "tail -f /dev/null"
