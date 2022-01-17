@@ -20,3 +20,14 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
+cd ./kubespray
+
+sudo pip install virtualenv
+
+virtualenv -p python3 venv
+
+source venv/bin/activate
+
+pip3 install -r requirements.txt
+
+ansible --version
