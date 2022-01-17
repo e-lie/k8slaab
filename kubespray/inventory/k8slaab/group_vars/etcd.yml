@@ -22,4 +22,4 @@ etcd_memory_limit: "800M"
 ## Settings for etcd deployment type
 # Set this to docker if you are using container_manager: docker
 # etcd_deployment_type: host
-etcd_deployment_type: hosts
+etcd_deployment_type: host
